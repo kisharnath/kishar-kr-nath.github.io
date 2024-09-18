@@ -1,1 +1,128 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: #333;
+        }
+        .projects, .skills, .contact {
+            margin-bottom: 20px;
+        }
+        .project, .skill {
+            background: #e2e2e2;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Welcome to my portfolio</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Your Name, a passionate [Your Profession] with a knack for [Your Specialization]. I love working on [Types of Projects] and continually learning new technologies.</p>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project Name</h3>
+                    <p><strong>Description:</strong> Brief description of the project.</p>
+                    <p><strong>Technologies:</strong> List of technologies used.</p>
+                    <a href="https://link-to-project.com" target="_blank">View Project</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <h3>Skill Name</h3>
+                    <p>Description of the skill or technology.</p>
+                </div>
+                <!-- Add more skills as needed -->
+            </section>
+
+            <section class="contact">
+                <h2>Contact Me</h2>
+                <form class="contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
